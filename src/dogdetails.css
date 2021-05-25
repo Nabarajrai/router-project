@@ -2,3 +2,14 @@
   margin-top: 20px !important;
   margin-bottom: 30px;
 }
+.des .img {
+  filter: none;
+  transition: 0.4s filter ease;
+}
+.des:hover .img {
+  filter: grayscale();
+}
+.dogdetails {
+  width: 70%;
+  margin: auto;
+}
